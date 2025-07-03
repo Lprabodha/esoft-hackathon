@@ -164,16 +164,21 @@ export function TaskManagement() {
     try {
       await new Promise((resolve) => setTimeout(resolve, 1000))
 
-      const newTask: Task = {
-        id: Date.now().toString(),
-        ...taskForm,
-        assignedBy: "Dr. Sarah Johnson", // Current user
-        status: "Pending",
-        createdDate: new Date().toISOString().split("T")[0],
-        progress: 0,
-        submissions: [],
-        points: Number.parseInt(taskForm.points) || 10,
-      }
+    const newTask: Task = {
+      id: Date.now().toString(),
+      title: taskForm.title,
+      description: taskForm.description,
+      assignedTo: taskForm.assignedTo,
+      project: taskForm.project,
+      priority: taskForm.priority as "Low" | "Medium" | "High", // ✅ Cast here
+      dueDate: taskForm.dueDate,
+      assignedBy: "Dr. Sarah Johnson",
+      status: "Pending",
+      createdDate: new Date().toISOString().split("T")[0],
+      progress: 0,
+      submissions: [],
+      points: Number.parseInt(taskForm.points) || 10,
+    }
 
       setTasks([...tasks, newTask])
       setSubmitSuccess("Task created successfully!")
