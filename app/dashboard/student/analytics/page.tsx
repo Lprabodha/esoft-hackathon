@@ -22,7 +22,6 @@ import {
 } from "lucide-react"
 import Link from "next/link"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar } from "recharts"
-import Download from "@/components/ui/download" // Import Download component
 
 export default function AnalyticsPage() {
   const [timeRange, setTimeRange] = useState("6months")
@@ -158,10 +157,7 @@ export default function AnalyticsPage() {
                 <SelectItem value="1year">1 Year</SelectItem>
               </SelectContent>
             </Select>
-            <Button variant="outline">
-              <Download className="w-4 h-4 mr-2" />
-              Export Report
-            </Button>
+
             <Link href="/dashboard/student">
               <Button variant="outline">Back to Dashboard</Button>
             </Link>
