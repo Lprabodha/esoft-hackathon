@@ -87,7 +87,7 @@ export default function LearningPage() {
       price: "Paid",
       description: "Learn modern React patterns, hooks, and performance optimization techniques.",
       instructor: "Sarah Chen",
-      start_date: "2024-02-15",
+      start_date: "2025-02-15",
     },
     {
       id: 3,
@@ -105,7 +105,7 @@ export default function LearningPage() {
       price: "Free",
       description: "Create compelling visualizations using Python libraries like Matplotlib and Seaborn.",
       instructor: "Prof. Lisa Wang",
-      completion_date: "2024-01-20",
+      completion_date: "2025-01-20",
       certificate_url: "/certificates/data-viz-python.pdf",
     },
     {
@@ -124,7 +124,7 @@ export default function LearningPage() {
       price: "Free",
       description: "Connect with industry professionals and receive personalized career guidance.",
       instructor: "Multiple Industry Experts",
-      start_date: "2024-03-01",
+      start_date: "2025-03-01",
     },
     {
       id: 5,

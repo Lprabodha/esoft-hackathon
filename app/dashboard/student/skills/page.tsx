@@ -76,7 +76,7 @@ export default function SkillsPage() {
       verified: true,
       endorsements: 12,
       projects_used: ["AI Research Project", "Data Analysis Tool", "Web Scraper"],
-      last_updated: "2024-01-15",
+      last_updated: "2025-01-15",
     },
     {
       id: 2,
@@ -87,7 +87,7 @@ export default function SkillsPage() {
       verified: true,
       endorsements: 8,
       projects_used: ["Portfolio Website", "React Dashboard"],
-      last_updated: "2024-01-10",
+      last_updated: "2025-01-10",
     },
     {
       id: 3,
@@ -98,7 +98,7 @@ export default function SkillsPage() {
       verified: false,
       endorsements: 5,
       projects_used: ["Portfolio Website", "E-commerce App"],
-      last_updated: "2024-01-08",
+      last_updated: "2025-01-08",
       parent_skill_id: 2,
       parent_skill_name: "JavaScript",
     },
@@ -111,7 +111,7 @@ export default function SkillsPage() {
       verified: true,
       endorsements: 3,
       projects_used: ["Stock Prediction Model"],
-      last_updated: "2024-01-12",
+      last_updated: "2025-01-12",
     },
     {
       id: 5,
@@ -122,7 +122,7 @@ export default function SkillsPage() {
       verified: true,
       endorsements: 7,
       projects_used: ["Database Design Project", "Analytics Dashboard"],
-      last_updated: "2024-01-05",
+      last_updated: "2025-01-05",
     },
     {
       id: 6,
@@ -133,7 +133,7 @@ export default function SkillsPage() {
       verified: false,
       endorsements: 2,
       projects_used: ["Mobile App Mockup"],
-      last_updated: "2024-01-03",
+      last_updated: "2025-01-03",
     },
     {
       id: 7,
@@ -144,7 +144,7 @@ export default function SkillsPage() {
       verified: true,
       endorsements: 6,
       projects_used: ["Team Capstone Project", "Hackathon Leadership"],
-      last_updated: "2024-01-18",
+      last_updated: "2025-01-18",
     },
     {
       id: 8,
@@ -155,7 +155,7 @@ export default function SkillsPage() {
       verified: true,
       endorsements: 10,
       projects_used: ["All Programming Projects"],
-      last_updated: "2024-01-20",
+      last_updated: "2025-01-20",
     },
   ]
 

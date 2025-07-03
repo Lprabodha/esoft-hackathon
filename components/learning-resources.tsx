@@ -65,7 +65,7 @@ export function LearningResources() {
       skills: ["React", "JavaScript", "Frontend Development"],
       description: "Learn modern React patterns, hooks, and performance optimization techniques.",
       relevantTo: "Frontend Development",
-      startDate: "2024-02-15",
+      startDate: "2025-02-15",
       instructor: "Sarah Chen",
     },
     {
@@ -95,7 +95,7 @@ export function LearningResources() {
       price: "Free",
       skills: ["Professional Development", "Networking", "Career Growth"],
       description: "Connect with industry professionals and receive personalized career guidance.",
-      startDate: "2024-03-01",
+      startDate: "2025-03-01",
       instructor: "Multiple Industry Experts",
     },
     {

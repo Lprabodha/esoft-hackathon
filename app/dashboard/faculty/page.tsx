@@ -135,12 +135,12 @@ export default function FacultyDashboard() {
       type: "research",
       department: "Computer Science",
       location: "University Campus",
-      start_date: "2024-03-01",
-      end_date: "2024-08-31",
-      application_deadline: "2024-02-15",
+      start_date: "2025-03-01",
+      end_date: "2025-08-31",
+      application_deadline: "2025-02-15",
       num_positions: 3,
       status: "open",
-      created_at: "2024-01-10T10:00:00Z",
+      created_at: "2025-01-10T10:00:00Z",
       applications_count: 24,
       required_skills: ["Python", "Machine Learning", "TensorFlow", "Research Methodology"],
     },
@@ -152,12 +152,12 @@ export default function FacultyDashboard() {
       type: "training",
       department: "Computer Science",
       location: "Hybrid",
-      start_date: "2024-04-01",
-      end_date: "2024-06-30",
-      application_deadline: "2024-02-20",
+      start_date: "2025-04-01",
+      end_date: "2025-06-30",
+      application_deadline: "2025-02-20",
       num_positions: 15,
       status: "open",
-      created_at: "2024-01-15T14:30:00Z",
+      created_at: "2025-01-15T14:30:00Z",
       applications_count: 18,
       required_skills: ["JavaScript", "React", "Node.js", "HTML/CSS"],
     },
@@ -174,7 +174,7 @@ export default function FacultyDashboard() {
       student_department: "Computer Science",
       student_gpa: 3.8,
       application_status: "under_review",
-      applied_at: "2024-01-15T10:30:00Z",
+      applied_at: "2025-01-15T10:30:00Z",
       cover_letter_url: "/documents/alice_cover_letter.pdf",
       submission_details: {
         portfolio_url: "https://alice-portfolio.com",
@@ -196,7 +196,7 @@ export default function FacultyDashboard() {
       student_department: "Computer Science",
       student_gpa: 3.6,
       application_status: "shortlisted",
-      applied_at: "2024-01-18T14:20:00Z",
+      applied_at: "2025-01-18T14:20:00Z",
       cover_letter_url: "/documents/bob_cover_letter.pdf",
       submission_details: {
         github_url: "https://github.com/bobsmith",
@@ -216,16 +216,16 @@ export default function FacultyDashboard() {
       student_name: "Alice Johnson",
       student_academic_id: "CS2021001",
       opportunity_title: "ML Research Project",
-      start_date: "2024-01-20",
+      start_date: "2025-01-20",
       progress_percentage: 75,
-      last_update: "2024-01-25",
+      last_update: "2025-01-25",
       performance_rating: 4.5,
       feedback_count: 3,
       skills_developed: ["Research Methodology", "Python Programming", "Data Analysis"],
       current_tasks: [
-        { title: "Literature Review", due_date: "2024-02-01", status: "completed" },
-        { title: "Data Collection", due_date: "2024-02-15", status: "in_progress" },
-        { title: "Model Development", due_date: "2024-03-01", status: "pending" },
+        { title: "Literature Review", due_date: "2025-02-01", status: "completed" },
+        { title: "Data Collection", due_date: "2025-02-15", status: "in_progress" },
+        { title: "Model Development", due_date: "2025-03-01", status: "pending" },
       ],
     },
     {
@@ -233,16 +233,16 @@ export default function FacultyDashboard() {
       student_name: "Bob Smith",
       student_academic_id: "CS2021002",
       opportunity_title: "Web Dev Training",
-      start_date: "2024-01-22",
+      start_date: "2025-01-22",
       progress_percentage: 60,
-      last_update: "2024-01-24",
+      last_update: "2025-01-24",
       performance_rating: 4.0,
       feedback_count: 2,
       skills_developed: ["React", "Node.js", "Database Design"],
       current_tasks: [
-        { title: "React Fundamentals", due_date: "2024-01-30", status: "completed" },
-        { title: "Backend API", due_date: "2024-02-10", status: "in_progress" },
-        { title: "Final Project", due_date: "2024-02-25", status: "pending" },
+        { title: "React Fundamentals", due_date: "2025-01-30", status: "completed" },
+        { title: "Backend API", due_date: "2025-02-10", status: "in_progress" },
+        { title: "Final Project", due_date: "2025-02-25", status: "pending" },
       ],
     },
   ])
@@ -257,7 +257,7 @@ export default function FacultyDashboard() {
       opportunity_title: "ML Research Project",
       rating: 5,
       comments: "Excellent progress on the literature review. Shows strong analytical skills and attention to detail.",
-      feedback_date: "2024-01-25T16:00:00Z",
+      feedback_date: "2025-01-25T16:00:00Z",
     },
     {
       id: 2,
@@ -268,7 +268,7 @@ export default function FacultyDashboard() {
       opportunity_title: "Web Dev Training",
       rating: 4,
       comments: "Good understanding of React concepts. Needs to work on code organization and best practices.",
-      feedback_date: "2024-01-24T14:30:00Z",
+      feedback_date: "2025-01-24T14:30:00Z",
     },
   ])
 
@@ -436,7 +436,7 @@ export default function FacultyDashboard() {
                   {opportunities.filter((o) => o.status === "open").length}
                 </div>
                 <p className="text-sm text-gray-500">
-                  {opportunities.filter((o) => o.created_at > "2024-01-01").length} new this month
+                  {opportunities.filter((o) => o.created_at > "2025-01-01").length} new this month
                 </p>
               </CardContent>
             </Card>
