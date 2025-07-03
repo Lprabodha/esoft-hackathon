@@ -401,12 +401,12 @@ export default function FacultyDashboard() {
                 Feedback & Evaluation
               </Link>
             </Button>
-            <Button variant="ghost" className="w-full justify-start" asChild>
+            {/* <Button variant="ghost" className="w-full justify-start" asChild>
               <Link href="/dashboard/faculty/analytics">
                 <BarChart3 className="w-4 h-4 mr-2" />
                 Analytics
               </Link>
-            </Button>
+            </Button> */}
             <Button variant="ghost" className="w-full justify-start" asChild>
               <Link href="/dashboard/faculty/create-opportunity">
                 <Plus className="w-4 h-4 mr-2" />

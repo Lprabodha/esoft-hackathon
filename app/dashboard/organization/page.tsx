@@ -383,12 +383,12 @@ export default function OrganizationDashboard() {
                 Active Interns
               </Link>
             </Button>
-            <Button variant="ghost" className="w-full justify-start" asChild>
+            {/* <Button variant="ghost" className="w-full justify-start" asChild>
               <Link href="/dashboard/organization/analytics">
                 <BarChart3 className="w-4 h-4 mr-2" />
                 Analytics
               </Link>
-            </Button>
+            </Button> */}
             <Button variant="ghost" className="w-full justify-start" asChild>
               <Link href="/dashboard/organization/post-job">
                 <Plus className="w-4 h-4 mr-2" />
