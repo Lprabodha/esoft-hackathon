@@ -32,7 +32,7 @@ export default function LandingPage() {
               <Brain className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              AI TalentTrack
+              TalentSync
             </span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
@@ -391,7 +391,7 @@ export default function LandingPage() {
                 <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                   <Brain className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">AI TalentTrack</span>
+                <span className="text-xl font-bold">TalentSync</span>
               </div>
               <p className="text-gray-400">
                 The complete platform for academic and professional development, connecting students with opportunities
@@ -460,7 +460,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 AI TalentTrack. All rights reserved.</p>
+            <p>&copy; 2024 TalentSync. All rights reserved.</p>
           </div>
         </div>
       </footer>

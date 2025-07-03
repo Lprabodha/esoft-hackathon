@@ -170,7 +170,7 @@ export default function AuthPage() {
               <Brain className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              AI TalentTrack
+              TalentSync
             </span>
           </Link>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Welcome Back</h1>

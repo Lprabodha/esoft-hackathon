@@ -342,7 +342,7 @@ export default function FacultyDashboard() {
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <Brain className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">AI TalentTrack</span>
+              <span className="text-xl font-bold">TalentSync</span>
             </Link>
             <Badge variant="secondary" className="bg-purple-100 text-purple-700">
               Faculty Dashboard
